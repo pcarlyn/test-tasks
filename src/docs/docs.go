@@ -15,7 +15,7 @@ const docTemplate = `{
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
-        "/api/v1/tasks/": {
+        "/tasks": {
             "get": {
                 "description": "Возвращает все задачи",
                 "consumes": [
@@ -116,7 +116,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/tasks/{id}": {
+        "/tasks/{id}": {
             "put": {
                 "description": "Изменяет задачу по id",
                 "consumes": [

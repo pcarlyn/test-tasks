@@ -46,7 +46,7 @@ info:
   title: TaskAPI
   version: "1.0"
 paths:
-  /api/v1/tasks/:
+  /tasks:
     get:
       consumes:
       - application/json
@@ -112,7 +112,7 @@ paths:
             $ref: '#/definitions/models.ErrorResponse'
       tags:
       - tasks
-  /api/v1/tasks/{id}:
+  /tasks/{id}:
     delete:
       consumes:
       - application/json

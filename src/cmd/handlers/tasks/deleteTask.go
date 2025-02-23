@@ -18,7 +18,7 @@ import (
 // @Failure 404 {object} models.ErrorResponse
 // @Failure 400 {object} models.ErrorResponse
 // @Failure 500 {object} models.ErrorResponse
-// @Router /api/v1/tasks/{id} [delete]
+// @Router /tasks/{id} [delete]
 func DeleteTask(c *fiber.Ctx) error {
 	id := c.Params("id")
 

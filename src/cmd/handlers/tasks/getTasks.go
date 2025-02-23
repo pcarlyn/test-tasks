@@ -17,7 +17,7 @@ import (
 // @Failure 404 {object} models.ErrorResponse
 // @Failure 400 {object} models.ErrorResponse
 // @Failure 500 {object} models.ErrorResponse
-// @Router /api/v1/tasks/ [get]
+// @Router /tasks [get]
 func GetTasks(c *fiber.Ctx) error {
 	tasks, statusCode := controller.GetTasks()
 

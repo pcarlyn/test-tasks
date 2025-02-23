@@ -19,7 +19,7 @@ import (
 // @Failure 404 {object} models.ErrorResponse
 // @Failure 400 {object} models.ErrorResponse
 // @Failure 500 {object} models.ErrorResponse
-// @Router /api/v1/tasks/ [post]
+// @Router /tasks [post]
 func PostTask(c *fiber.Ctx) error {
 
 	var request models.RequestTask
