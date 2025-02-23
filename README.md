@@ -1,8 +1,8 @@
 Для запуска проекта достаточно из корня проекта запустить `docker compose up`
 
 swagger доступен по адресу http://localhost:8080/swagger/index.html#/
+![swagger](<screenshots/Screenshot 2025-02-23 at 14.40.36.png>)
 
-![swagger](<screenshots/Screenshot 2025-02-23 at 14.09.29.png>)
 
 
 Скришоты успешного выполнения в Insomnia
